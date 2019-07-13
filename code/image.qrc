@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/宫保鸡丁.jpg</file>
+        <file>Image/红烧排骨.jpg</file>
+        <file>Image/红烧茄子.jpg</file>
+        <file>Image/红烧全鱼.jpg</file>
+        <file>Image/红烧肉.jpg</file>
+        <file>Image/麻辣豆腐.jpg</file>
+        <file>Image/青椒肉丝.jpg</file>
+        <file>Image/香辣虾.jpg</file>
+        <file>Image/扬州炒饭.jpg</file>
+        <file>Image/star.png</file>
+        <file>Image/star1.png</file>
+        <file>Image/right240.png</file>
+        <file>Image/wrong240.png</file>
+        <file>Image/向后.png</file>
+        <file>Image/向前.png</file>
+        <file>Image/登录界面.png</file>
+        <file>Image/登录界面2.png</file>
+        <file>Image/下拉框提示图标.png</file>
+        <file>Image/下拉框图标.png</file>
+        <file>Image/下拉框图标1.png</file>
+        <file>Image/下拉框图标3.png</file>
+        <file>Image/餐桌（空闲）.png</file>
+        <file>Image/餐桌（已点）.png</file>
+        <file>Image/餐桌（忙碌）.png</file>
+        <file>Image/餐桌_s（空闲）.png</file>
+        <file>Image/餐桌_s.png</file>
+        <file>Image/选择桌位.jpg</file>
+        <file>Image/餐桌_s1.png</file>
+        <file>Image/选择桌位2.jpg</file>
+        <file>Image/餐桌_s3.png</file>
+        <file>Image/加号.png</file>
+        <file>Image/减号.png</file>
+        <file>Image/32菜品_炖品.png</file>
+        <file>Image/32菜品_小吃.png</file>
+        <file>Image/畅销菜品.png</file>
+        <file>Image/米饭2.png</file>
+        <file>Image/汤-Soup.png</file>
+        <file>Image/甜点饮品.png</file>
+        <file>Image/加号1.png</file>
+        <file>Image/减号1.png</file>
+    </qresource>
+</RCC>

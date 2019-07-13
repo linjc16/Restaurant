@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Cook_admin</class>
+ <widget class="QDialog" name="Cook_admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>760</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>760</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Cook_admin{
+border-image:url(:/Image/登录界面.png);
+
+}
+
+
+
+</string>
+  </property>
+  <widget class="QPushButton" name="finishpbt">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>440</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(44, 178, 214);
+border-radius:10%;
+color:rgb(255, 255, 255);
+font: 10pt &quot;微软雅黑&quot;;
+QPushButton#pushButton:hover{  
+background-color:rgb(255, 255, 214);  
+}  </string>
+   </property>
+   <property name="text">
+    <string>完成选中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="claim_pbt">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>440</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(44, 178, 214);
+border-radius:10%;
+color:rgb(255, 255, 255);
+font: 10pt &quot;微软雅黑&quot;;
+QPushButton#pushButton:hover{  
+background-color:rgb(255, 255, 214);  
+}  </string>
+   </property>
+   <property name="text">
+    <string>认领选中</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="cook_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>320</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(244,244,244,100);
+font: 10pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="claim_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>320</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(244,244,244,100);
+font: 10pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>claim_pbt</tabstop>
+  <tabstop>finishpbt</tabstop>
+  <tabstop>cook_listWidget</tabstop>
+  <tabstop>claim_listWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Waiter_admin</class>
+ <widget class="QDialog" name="Waiter_admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>465</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>465</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Waiter_admin{
+border-image:url(:/Image/登录界面.png);
+}
+</string>
+  </property>
+  <widget class="QListWidget" name="table_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>321</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(244,244,244,100);
+font: 10pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="message_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>321</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(244,244,244,100);
+font: 10pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="dishes_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>220</y>
+     <width>321</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(244,244,244,100);
+font: 10pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ensure_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>430</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(44, 178, 214);
+border-radius:10%;
+color:rgb(255, 255, 255);
+font: 13pt &quot;微软雅黑&quot;;
+QPushButton#pushButton:hover{  
+background-color:rgb(255, 255, 214);  
+}  </string>
+   </property>
+   <property name="text">
+    <string>服务选中</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="waitering_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>321</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(244,244,244,100);
+font: 10pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
